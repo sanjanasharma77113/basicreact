@@ -1,10 +1,18 @@
 import "./App.css";
+import From from "./Components/Form";
+import React from "react";
+import SignupForm from "./Components/SignupForm";
 
-function App() {
+
+const  App =()=> {
   return (
-   <h1>
-    hello word
-   </h1>
+   <div>
+  
+<SignupForm/>
+
+   
+   </div>
+  
   );
 }
 

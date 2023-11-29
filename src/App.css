@@ -1,1 +1,42 @@
 /* write your css here */
+*{
+    margin:0;
+    padding:0;
+
+}
+.container{
+    background: linear-gradient(135deg,#850c62,#f80759);
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.app-wrapper{
+    background-color:rgb(189, 184, 184);
+    min-height: 350px;
+    min-height:650px;
+    padding:30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.title{
+   color:#f80759; 
+   text-align:center;
+   margin:80px 0px 40px 0px;
+}
+.name,
+.email,
+.password{
+margin:20px;
+color:white;
+font-size:16px;
+}
+.password{
+    margin:32px;
+    font-size:20px;
+    outline:none;
+    width:100%;
+    border-top-style:none;
+    border-right
+}
